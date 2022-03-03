@@ -138,8 +138,6 @@ add_action( 'widgets_init', 'karanikolaswork_widgets_init' );
  * Enqueue scripts and styles.
  */
 function karanikolaswork_scripts() {
-	wp_enqueue_style( 'karanikolaswork-style', get_stylesheet_uri(), array(), _S_VERSION );
-	wp_style_add_data( 'karanikolaswork-style', 'rtl', 'replace' );
 
 	wp_enqueue_script( 'karanikolaswork-navigation', get_template_directory_uri() . '/js/navigation.js', array(), _S_VERSION, true );
 
@@ -169,13 +167,16 @@ require get_template_directory() . '/inc/template-functions.php';
  */
 require get_template_directory() . '/inc/customizer.php';
 
-/**
- * Load Jetpack compatibility file.
- */
-if ( defined( 'JETPACK__VERSION' ) ) {
-	require get_template_directory() . '/inc/jetpack.php';
-}
 
 
-wp_enqueue_style( 'comp-styles', get_template_directory_uri() . '/dist/style.css',false,'1.1','all');
+wp_enqueue_style( 'comp-styles', get_template_directory_uri() . '/dist/style.css','all');
 
+
+
+// PRELOAD FONTS
+add_action('wp_head' , function(){
+	$fonturl = home_url();
+    echo'
+    <link rel="preload" href=" '. $fonturl .   '/wp-content/themes/karanikolaswork/css/lsp.ttf " as="font" type="font/woff2" crossorgin>
+    ';
+});
