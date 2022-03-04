@@ -1,5 +1,13 @@
 .header{
-    background-color: #000;;
+    background-color: $bg-main;;
+    margin-top: 20px;
+    margin-left:20px;
+    margin-right: 20px;;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    padding: 50px 0;
+
+
     &__container{
         width: 100%;
         display: flex;;
@@ -7,14 +15,44 @@
         align-items: center;
     }
     &__logo{
-        flex:1;
+        font-size:27px;
+        font-family: $ff-main;
+        color: #fff;
+        font-weight: 600;
+        letter-spacing: 0.4px;
+        & > span{
+            font-weight: 300;
+        }
     }
-    &__navigation{width: 85%;}
-    &__cta{flex:1;}
+    &__navigation{
+        
+    }
+    &__cta{
+        font-family: $ff-main;
+        font-size: 20px;
+        color:$main;
+        border: 1px solid $text-light;
+        color: $text-link;
+        padding: 10px 15px;
+        border-radius: 30px;
+       
+    }
     #primary-menu ul{
         list-style: none;
+        margin:0;
+        padding: 0;;
         display: flex;
-        justify-content: space-around;
         flex:1;
+        justify-content: space-evenly;
+        padding: 0 60px;
+
+        & > li a{
+            font-size: 20px;
+            font-family: $ff-main;
+            color: $text-link;
+            text-decoration: none;
+            text-transform:lowercase;
+            margin-right: 5vh;
+        }
     }
 }

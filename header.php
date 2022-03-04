@@ -29,7 +29,7 @@
 	<header id="masthead" class="header">
 		
 		<div class="container header__container ">
-			<div class="header__logo">Karanikolas<span>.work</span></div>
+			<div class="header__logo">karanikolas<span>.work</span></div>
 			<div class="header__navigation">
 				<nav id="site-navigation" class="main-navigation">
 				<?php
