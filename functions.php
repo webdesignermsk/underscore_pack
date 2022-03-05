@@ -170,6 +170,9 @@ require get_template_directory() . '/inc/customizer.php';
 
 
 wp_enqueue_style( 'comp-styles', get_template_directory_uri() . '/dist/style.css','all');
+wp_enqueue_script( 'comp-scripts', get_template_directory_uri() . '/dist/app.js','','',true);
+
+
 
 
 
