@@ -1,0 +1,29 @@
+#primary{
+    padding: 0!important;
+}
+.entry{
+
+    &-header{
+        padding:20px;
+        background-color: #000;
+        border-bottom-left-radius: 30px;
+        color: #fff;
+        margin-bottom: 40px;
+    }
+    &-title{
+        padding: 30px;
+        margin: 0;
+    }
+    &-meta{
+        padding:20px 30px ;
+        border-top: 1px solid #fff;
+        border-bottom: 1px solid #000;
+        color: #fff;
+         > a {
+            color:#fff;
+        }
+    }
+    &-content{
+        max-width:750px;
+    }
+}

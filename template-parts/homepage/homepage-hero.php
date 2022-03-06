@@ -11,6 +11,9 @@
     <div class="container">
         <div class="row">
         <div class="homepage-blog-heading-container">
+
+        <?php //echo do_shortcode('[ajax_filter_posts post_type="post" tax="css,react,webflow"  posts_per_page="12"]'); ?>
+
             <h2 class="homepage-blog-heading">Latest Blog Inputs</h2>
             <a href="#" class="homepage-blog-heading-buttl link-simple">See all articles</a>
         </div>
@@ -39,3 +42,5 @@
         </div>
     </div>
 </section>
+
+

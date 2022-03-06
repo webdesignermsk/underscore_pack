@@ -1327,7 +1327,8 @@ progress {
 
 .header {
   background-color: #fff;
-  padding: 20px 0; }
+  padding: 20px 0;
+  padding-bottom: 0; }
   .header__container {
     width: 100%;
     display: flex;
@@ -1414,6 +1415,31 @@ progress {
     margin: 0; }
   .single-list-item-date {
     margin: 0; }
+
+#primary {
+  padding: 0 !important; }
+
+.entry-header {
+  padding: 20px;
+  background-color: #000;
+  border-bottom-left-radius: 30px;
+  color: #fff;
+  margin-bottom: 40px; }
+
+.entry-title {
+  padding: 30px;
+  margin: 0; }
+
+.entry-meta {
+  padding: 20px 30px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #000;
+  color: #fff; }
+  .entry-meta > a {
+    color: #fff; }
+
+.entry-content {
+  max-width: 750px; }
 
 body {
   background-color: #fff; }
