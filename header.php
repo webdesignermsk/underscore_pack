@@ -16,8 +16,9 @@
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
-	<link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
-	<script src=""></script>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 	<?php wp_head(); ?>
 </head>
 <body  <?php body_class(); ?> >
@@ -31,6 +32,15 @@
 		<div class="container header__container ">
 			<div class="header__logo"><a href="<?php echo get_home_url(); ?>">karanikolas<span>.work</span></a></div>
 			<div class="header__navigation">
+			<div class="navToggle"><span class="menu"></span></div>
+
+			<nav>
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</nav>
 				<nav id="site-navigation" class="main-navigation">
 				<?php
 				wp_nav_menu(
@@ -46,4 +56,6 @@
 		</div>
 		
 	</header><!-- #masthead -->
+
+
 	<main id="swup" class="transition-fade">

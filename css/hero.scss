@@ -1,56 +1,56 @@
-.hero{
-    padding: 15vh 0;
-    h1{
-        font-size: 45px;
-        line-height: 45px;
-        font-weight: 500;
-        font-family: $ff-main;
+// .hero{
+//     padding: 15vh 0;
+//     h1{
+//         font-size: 45px;
+//         line-height: 45px;
+//         font-weight: 500;
+//         font-family: $ff-main;
       
-        margin-right: 5%;;
-        color: #000;
-    }
-    & > p{
-        max-width: 600px;
-        font-size: 20px;
-        color: $text-dark;
-    }
-}
-.homepage-blog{
-background-color: #000;
-padding: 150px 0;
-}
+//         margin-right: 5%;;
+//         color: #000;
+//     }
+//     & > p{
+//         max-width: 600px;
+//         font-size: 20px;
+//         color: $text-dark;
+//     }
+// }
+// .homepage-blog{
+// background-color: #000;
+// padding: 150px 0;
+// }
 
-.homepage-blog-heading-container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 100px;
-}
-.link-simple{
-    margin: 0 !important;
-}
-.homepage-blog-heading{
-    color: #fff;
-    font-family: $ff-main;
-}
-.single-list-item{
-    border-bottom: 1px solid #fff;
-    padding:20px 0;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+// .homepage-blog-heading-container {
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
+//     margin-bottom: 100px;
+// }
+// .link-simple{
+//     margin: 0 !important;
+// }
+// .homepage-blog-heading{
+//     color: #fff;
+//     font-family: $ff-main;
+// }
+// .single-list-item{
+//     border-bottom: 1px solid #fff;
+//     padding:20px 0;
+//     display: flex;
+//     justify-content: space-between;
+//     align-items: center;
 
-    &-link{
-        text-decoration: none;
-        padding:0;
-    }
-    &-title{
-        color: #fff;
-        font-size: 22px;
-        padding:0;
-        margin:0;
-    }
-    &-date{
-        margin: 0;
-    }
-}
+//     &-link{
+//         text-decoration: none;
+//         padding:0;
+//     }
+//     &-title{
+//         color: #fff;
+//         font-size: 22px;
+//         padding:0;
+//         margin:0;
+//     }
+//     &-date{
+//         margin: 0;
+//     }
+// }
